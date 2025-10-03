@@ -5,6 +5,19 @@ import vueI18n from "@intlify/vite-plugin-vue-i18n";
 import laravel from "laravel-vite-plugin";
 
 export default defineConfig({
+   build: {
+    chunkSizeWarningLimit: 2000, // default is 500 kB
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+        }
+      }
+    },
+    outDir: "dist",
+  },
     plugins: [
         laravel({
             input: ["resources/js/src/main.ts"],
