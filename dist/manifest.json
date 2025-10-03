@@ -1080,13 +1080,13 @@
     "file": "assets/vendor.87a71e96.css",
     "src": "vendor.css"
   },
-  "resources/js/src/views/elements/progress-bar.css": {
-    "file": "assets/progress-bar.3a69f4a0.css",
-    "src": "resources/js/src/views/elements/progress-bar.css"
-  },
   "codePreview.css": {
     "file": "assets/codePreview.de7a43c3.css",
     "src": "codePreview.css"
+  },
+  "resources/js/src/views/elements/progress-bar.css": {
+    "file": "assets/progress-bar.3a69f4a0.css",
+    "src": "resources/js/src/views/elements/progress-bar.css"
   },
   "resources/js/src/main.css": {
     "file": "assets/main.1e600a61.css",

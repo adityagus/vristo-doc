@@ -6,7 +6,7 @@ import laravel from "laravel-vite-plugin";
 
 export default defineConfig({
    build: {
-    chunkSizeWarningLimit: 2000, // default is 500 kB
+    chunkSizeWarningLimit: 20000, // default is 500 kB
     rollupOptions: {
       output: {
         manualChunks(id) {
